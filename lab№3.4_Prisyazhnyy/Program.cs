@@ -16,6 +16,7 @@ for (double x = 1; x <= 2.1; x += 0.1)
     }
     Console.WriteLine($"|{x,5:F2}{"|",3}{sum,7:F2}{"|",3}");
 }
+}
 catch (Exception ex)
 {
 Console.WriteLine(ex.Message);
